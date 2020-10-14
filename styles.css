@@ -1,5 +1,5 @@
 body {
-    background-color: LightBlue;
+    background-color: #f2f2f2;
 }
 
 .intro {
@@ -12,7 +12,7 @@ body {
     margin-right: auto;
     width: 1000px;
     height: 1000px;
-    margin-bottom: 0%;
+    margin-bottom: -20em;
     font-family: 'Pacifico', cursive;
 }
 
@@ -20,32 +20,89 @@ h1 {
     font-size: 4.5em;
     text-align: center;
     font-family: 'Pacifico', cursive;
+    padding-top: 0.2em;
+}
+
+h2 {
+    font-size: 3.5em;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
 }
 
 li {
     font-size: 2em;
-    padding-right: 4.5em;
+    padding-right: 5.5em;
+    color: black;
 }
 
 a:link {
     text-decoration: none;
   }
 
+a:visited {
+    color: black;
+}
+
 a:hover {
     text-decoration: underline;
 }    
 
-#globe {
-    z-index: -1;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-top: -0.1em;
   }
 
 article {
-    padding-top: 0em;
-    margin-top: 0em;
+    text-align: justify;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: 'Piazzolla', serif;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.left {
+    display: grid;
+    position: relative;
+    grid-template-columns: 700px 700px 700px 700px;
+    margin-left: -2.3em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.center_picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption {
+    text-align: center;
+    font-family: 'Piazzolla', serif;
+    font-size: 0.8em;
+}
+
+#frpic {
+    margin-left: 1em;
+}
+
+#egyptpic {
+    margin-left: 1em;
+}
+
+#jpic {
+    margin-left: 0.8em;
+}
+
+#canyonpic {
+    margin-left: 0.8em;
+}
+
+#footer {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 2em;
 }
